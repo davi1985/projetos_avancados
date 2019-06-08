@@ -51,5 +51,4 @@ if (!empty($_POST['email'])) {
     <a href="index.php">Voltar</a>
 </div>
 
-
 <?php include __DIR__ . '/includes/header.php'; ?>
