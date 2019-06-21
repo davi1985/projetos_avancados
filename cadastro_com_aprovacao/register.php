@@ -1,7 +1,7 @@
 <?php
-include 'includes/header.php';
+include __DIR__.'/includes/header.php';
 
-require 'src/ConnectDB.php';
+require  __DIR__.'/src/ConnectDB.php';
 $pdo = ConnectDB::Make();
 
 
@@ -27,4 +27,4 @@ $pdo = ConnectDB::Make();
      exit;
  }
 
-include 'includes/footer.php';
+include  __DIR__.'/includes/footer.php';

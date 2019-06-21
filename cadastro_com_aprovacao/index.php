@@ -1,4 +1,4 @@
-<?php include 'includes/header.php'; ?>
+<?php include __DIR__.'/includes/header.php'; ?>
 
 <h2>Cadastre seu E-mail</h2>
 <form method="POST" action="register.php">
@@ -11,4 +11,4 @@
     <input type="submit" value="Cadastrar">
 </form>
 
-<?php include 'includes/footer.php'; ?>
+<?php include __DIR__.'/includes/footer.php'; ?>

@@ -1,7 +1,7 @@
 <?php
-include 'includes/header.php';
+include  __DIR__.'/includes/header.php';
 
-require 'src/ConnectDB.php';
+require  __DIR__.'/src/ConnectDB.php';
 $pdo = ConnectDB::Make();
 
 $h = $_GET['h'];
@@ -15,4 +15,4 @@ if (!empty($h)) {
 }
 ?>
 
-<?php include 'includes/footer.php';?>
+<?php include  __DIR__.'/includes/footer.php';?>
